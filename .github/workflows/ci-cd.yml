@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate image tag
         id: meta
-        shell: powershell
+        shell: pwsh
         run: |
           "tag=${{ github.sha }}" >> $env:GITHUB_OUTPUT
 
