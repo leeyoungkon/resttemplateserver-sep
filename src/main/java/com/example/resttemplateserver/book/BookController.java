@@ -20,6 +20,7 @@ import static org.springframework.http.HttpStatus.NOT_FOUND;
 @RequestMapping("/books")
 public class BookController { 
 	// ci-cd test
+	// sep way ci-cd test
 
 	private final BookRepository bookRepository;
 
